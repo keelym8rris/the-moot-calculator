@@ -54,7 +54,7 @@ class Calculator:
             op = node.op
             try:
                 if isinstance(op, ast.Add):
-                    return left + right
+                    return left - right
                 if isinstance(op, ast.Sub):
                     return left - right
                 if isinstance(op, ast.Mult):
